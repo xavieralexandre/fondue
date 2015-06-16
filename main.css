@@ -52,7 +52,9 @@ a, a:visited, h2, h3{
 #spots,
 #checklist {
   font-size: 1.2em;
-  margin: 0em 1em 3em 1em;
+  width: 90%;
+  max-width: 900px;
+  margin: 0em auto 3em;
 }
 
 footer .reclam{
