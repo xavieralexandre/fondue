@@ -36,6 +36,30 @@ footer{
 	max-height:523px;
 }
 
+h1 {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	color: white;
+	margin: 0;
+}
+
+h2{
+	margin:0;
+}
+
+a, a:visited, h2, h3{
+	color: rgba(0, 15, 100, 1);
+}
+
+#spots,
+#checklist {
+	font-size: 1.2em;
+	width: 90%;
+	max-width: 900px;
+	margin: 0em auto 3em;
+}
+
 .map {
 	width: 50%;
 	display:block;
@@ -47,26 +71,6 @@ footer{
 	border-color: rgba(0, 15, 100, 1);
 }
 
-a, a:visited, h2, h3{
-	color: rgba(0, 15, 100, 1);
-}
-
-h1 {
-	position: absolute;
-	top: 1em;
-	left: 1em;
-	color: white;
-	margin: 0;
-}
-
-#spots,
-#checklist {
-	font-size: 1.2em;
-	width: 90%;
-	max-width: 900px;
-	margin: 0em auto 3em;
-}
-
 @media (max-device-width: 768px) {
 	body {
 		font-size: 2em;
@@ -75,8 +79,4 @@ h1 {
 	.map {
 		width: 100%;
 	}
-}
-
-h2{
-	margin:0;
 }
