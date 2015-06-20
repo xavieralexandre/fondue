@@ -23,7 +23,7 @@ header{
 	background-size: 100%;
 	background-image: linear-gradient( rgba(0, 15, 100, 0.6), rgba(0, 15, 100, 0.6)), url(http://xavieralexandre.org/fondue/img/capites.jpg);
 	height: 50vw;
-	max-height: 50vh;
+	max-height: 80vh;
 	margin-bottom: 3em;
 }
 
