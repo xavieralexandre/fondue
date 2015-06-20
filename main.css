@@ -1,76 +1,72 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
-  font: 1em sans-serif;
+	margin: 0;
+	padding: 0;
+	font: 1em sans-serif;
 }
 
-
-.module {
-  margin: 0;
-  margin-bottom: 1em;
-  position: relative;
-  width: 100%;
-  height: 50vw;
-  float: left;
-  background: url(http://xavieralexandre.org/fondue/img/capites.jpg);
-  background-size: 100%;
-  font-size: 1.2em;
-}
-
-.darken {
-  background-image: linear-gradient( rgba(0, 15, 100, 0.6), rgba(0, 15, 100, 0.6)), url(http://xavieralexandre.org/fondue/img/capites.jpg);
+header {
+	margin: 0;
+	margin-bottom: 1em;
+	position: relative;
+	width: 100%;
+	height: 50vw;
+	float: left;
+	background: url(http://xavieralexandre.org/fondue/img/capites.jpg);
+	background-size: 100%;
+	font-size: 1.2em;
+	background-image: linear-gradient( rgba(0, 15, 100, 0.6), rgba(0, 15, 100, 0.6)), url(http://xavieralexandre.org/fondue/img/capites.jpg);
 }
 
 footer img {
-  width: 100%;
+	width: 100%;
 }
 
 .map {
-  width: 50%;
-display:block;
-margin:1em;
-  margin-left: auto;
-  margin-right: auto;
-border: solid;
-border-width: 4px;
-border-color: rgba(0, 15, 100, 1);
+	width: 50%;
+	display:block;
+	margin:1em;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid;
+	border-width: 4px;
+	border-color: rgba(0, 15, 100, 1);
 }
 
 a, a:visited, h2, h3{
 	color: rgba(0, 15, 100, 1);
 }
 
-.module .text {
-  position: absolute;
-  bottom: 1em;
-  left: 1em;
-  color: white;
-  margin: 0;
+h1 {
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+	color: white;
+	margin: 0;
 }
 
 #spots,
 #checklist {
-  font-size: 1.2em;
-  width: 90%;
-  max-width: 900px;
-  margin: 0em auto 3em;
+	font-size: 1.2em;
+	width: 90%;
+	max-width: 900px;
+	margin: 0em auto 3em;
 }
 
 footer .reclam{
-  margin: 3em ;
-  text-align:center;
+	margin: 3em ;
+	text-align:center;
 }
 
 
 @media (max-device-width: 768px) {
-  body {
-      font-size: 2em;
-  }
+	body {
+		font-size: 2em;
+	}
   
-  .map {
-    width: 100%;
-  }
+	.map {
+		width: 100%;
+	}
 }
 
 h2{
