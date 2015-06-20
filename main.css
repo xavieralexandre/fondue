@@ -2,27 +2,38 @@
 
 html,
 body {
-  margin: 0;
-  padding: 0;
-  font: 1em 'Karla', sans-serif;
+	margin: 0;
+	padding: 0;
+	font: 1em 'Karla', sans-serif;
 }
 
-header {
+header,footer {
 	margin: 0;
-	margin-bottom: 1em;
 	position: relative;
 	width: 100%;
-	height: 50vw;
-	max-height: 50vh;
 	float: left;
-	background: url(http://xavieralexandre.org/fondue/img/capites.jpg);
-	background-size: 100%;
-	font-size: 1.2em;
-	background-image: linear-gradient( rgba(0, 15, 100, 0.6), rgba(0, 15, 100, 0.6)), url(http://xavieralexandre.org/fondue/img/capites.jpg);
 }
 
-footer img {
-	width: 100%;
+header,footer, footer a, footer a:visited{
+	color: white;
+}
+
+header{
+	background: url(http://xavieralexandre.org/fondue/img/capites.jpg);
+	background-size: 100%;
+	background-image: linear-gradient( rgba(0, 15, 100, 0.6), rgba(0, 15, 100, 0.6)), url(http://xavieralexandre.org/fondue/img/capites.jpg);
+	height: 50vw;
+	max-height: 50vh;
+	margin-bottom: 1em;
+}
+
+footer{
+	background: url(http://xavieralexandre.org/fondue/img/café.jpg);
+	background-size: 100%;
+	background-image: linear-gradient( rgba(0, 15, 100, 0.6), rgba(0, 15, 100, 0.6)), url(http://xavieralexandre.org/fondue/img/café.jpg);
+	padding: 3em ;
+	text-align:center;
+	max-height:523px;
 }
 
 .map {
@@ -55,12 +66,6 @@ h1 {
 	max-width: 900px;
 	margin: 0em auto 3em;
 }
-
-footer .reclam{
-	margin: 3em ;
-	text-align:center;
-}
-
 
 @media (max-device-width: 768px) {
 	body {
