@@ -7,6 +7,10 @@ body {
 	font: 1em 'Karla', sans-serif;
 }
 
+p, .description{
+	max-width:26em;
+}
+
 header,footer {
 	margin: 0;
 	position: relative;
@@ -39,8 +43,8 @@ footer{
 
 h1 {
 	position: absolute;
-	top: .75rem;
-	left: .75rem;
+	top: 2rem;
+	left: 5vw;
 	color: white;
 	margin: 0;
 	font-size: 1.8rem;
@@ -59,31 +63,25 @@ a, a:visited, h2, h3{
 #checklist {
 	font-size: 1.2em;
 	width: 90%;
-	max-width: 26em;
-	margin: 0em .75em 3em .75em;
+	margin: 0 .25em 3em 5vw;
+}
+
+#checklist{
+	max-width:26em;
+}
+
+.spot{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom:2em;
 }
 
 .map {
-	width: 100%;
-	display:block;
-	margin:1em;
-	margin-left: auto;
-	margin-right: auto;
 	border: solid;
 	border-width: 4px;
 	border-color: rgba(0, 15, 100, 1);
-}
-
-@media all and (min-width: 40em) {
-	
-	#spots,
-	#checklist {
-		margin: 0em auto 1em 10vw;
-		
-	}
-	
-	h1 {
-		top: 1.5em;
-		left: 10vw;
-	}
+	margin-right: 5vw;
+	margin-bottom:.5em;
+	width:26em;
+	max-width:97%;
 }
