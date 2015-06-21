@@ -75,10 +75,6 @@ a, a:visited, h2, h3{
 
 @media all and (max-width: 500px) {
 	
-	body{
-		font-size: 2rem;
-	}
-	
 	.map {
 		width: 100%;
 	}
