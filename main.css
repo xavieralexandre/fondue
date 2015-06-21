@@ -73,7 +73,7 @@ a, a:visited, h2, h3{
 }
 
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 40em) {
 	
 	.map {
 		width: 100%;
