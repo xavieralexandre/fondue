@@ -72,13 +72,13 @@ a, a:visited, h2, h3{
 	border-color: rgba(0, 15, 100, 1);
 }
 
-@media all and (max-device-width: 768px) {
+
+@media all and (max-width: 500px) {
+	
 	body{
 		font-size: 2rem;
 	}
-}
 	
-@media all and (max-width: 44em) {
 	.map {
 		width: 100%;
 	}
