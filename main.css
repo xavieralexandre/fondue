@@ -4,7 +4,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	font: 1.1rem 'Karla', sans-serif;
+	font: 1em 'Karla', sans-serif;
 }
 
 header,footer {
@@ -39,14 +39,16 @@ footer{
 
 h1 {
 	position: absolute;
-	top: 1em;
-	left: 1em;
+	top: .75rem;
+	left: .75rem;
 	color: white;
 	margin: 0;
+	font-size: 1.8rem;
 }
 
 h2{
 	margin:0;
+	font-size: 1.4rem;
 }
 
 a, a:visited, h2, h3{
@@ -58,11 +60,11 @@ a, a:visited, h2, h3{
 	font-size: 1.2em;
 	width: 90%;
 	max-width: 26em;
-	margin: 0em auto 1em 2em;
+	margin: 0em .75em 3em .75em;
 }
 
 .map {
-	width: 50%;
+	width: 100%;
 	display:block;
 	margin:1em;
 	margin-left: auto;
@@ -72,20 +74,16 @@ a, a:visited, h2, h3{
 	border-color: rgba(0, 15, 100, 1);
 }
 
-
-@media all and (max-width: 40em) {
-	
-	.map {
-		width: 100%;
-	}
+@media all and (min-width: 40em) {
 	
 	#spots,
 	#checklist {
-		margin: 0em .5em 3em .5em;
+		margin: 0em auto 1em 10vw;
+		
 	}
 	
 	h1 {
-		top: .25em;
-		left: .25em;
+		top: 1.5em;
+		left: 10vw;
 	}
 }
