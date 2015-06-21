@@ -72,6 +72,12 @@ a, a:visited, h2, h3{
 	border-color: rgba(0, 15, 100, 1);
 }
 
+@media all and (max-device-width: 768px) {
+	body{
+		font-size: 2rem;
+	}
+}
+	
 @media all and (max-width: 44rem) {
 	.map {
 		width: 100%;
@@ -83,7 +89,7 @@ a, a:visited, h2, h3{
 	}
 	
 	h1 {
-		top: .5rem;
-		left: .5rem;
+		top: .25em;
+		left: .25em;
 	}
 }
