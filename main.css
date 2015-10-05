@@ -48,16 +48,16 @@ footer{
 
 h1 {
 	position: absolute;
-	top: 2rem;
+	top: 2em;
 	left: 5vw;
 	color: white;
 	margin: 0;
-	font-size: 1.8rem;
+	font-size: 1.8em;
 }
 
 h2{
 	margin: 0 1em 1em 5vw;
-	font-size: 1.4rem;
+	font-size: 1.4em;
 }
 
 a, a:visited, h2, h3{
