@@ -8,8 +8,9 @@ body {
 }
 
 @media (max-device-width: 640px) {
-  body {
-    font-size: 1.4em;
+  html,
+	body {
+    font-size: 1.6em;
   }
 }
 
