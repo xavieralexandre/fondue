@@ -7,7 +7,7 @@ body {
 	font: 1em 'Karla', sans-serif;
 }
 
-@media (max-width: 400px) {
+@media (max-device-width: 400px) {
   body {
     font-size: 1.4em;
   }
