@@ -7,13 +7,6 @@ body {
 	font: 1em 'Karla', sans-serif;
 }
 
-@media (max-device-width: 640px) {
-  html,
-	body {
-    font-size: 1em;
-  }
-}
-
 p, .description{
 	max-width:26em;
 }
