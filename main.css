@@ -84,11 +84,6 @@ a, a:visited, h2, h3{
 	color: rgba(7, 141, 193, 1);
 }
 
-#spots,
-#checklist {
-	font-size: 1.2em;
-}
-
 #checklist{
 	display: flex;
 	flex-wrap: wrap;
@@ -113,9 +108,6 @@ a, a:visited, h2, h3{
 	 -webkit-box-sizing: border-box;
 	 -moz-box-sizing: border-box;
 	 box-sizing: border-box;
-}
-
-.acces{
 }
 
 @media all and (min-width: 600px) {
