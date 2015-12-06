@@ -109,35 +109,34 @@ a, a:visited, h2, h3{
 
 .map {
 	width: 100%;
-	 border: 4px solid rgba(7, 141, 193, 1);
+	 border: 2px solid rgba(7, 141, 193, 1);
 	 -webkit-box-sizing: border-box;
 	 -moz-box-sizing: border-box;
 	 box-sizing: border-box;
 }
 
 .acces{
-	color: #666;
 }
 
 @media all and (min-width: 600px) {
-	
+
 	.mapcontainer{
 		width: 50%;
 	}
-	
+
 	.description{
 		width: 48%;
 		margin-left: 2%;
 	}
-	
+
 	.list{
 		width: 50%;
 	}
-	
+
 	.list ul{
 		padding-right: 5%;
 	}
-	
+
 	h1{
 	padding: 0.4em 0;
 	font-size: 1.6em;
@@ -152,5 +151,5 @@ a, a:visited, h2, h3{
 		font-size: 1.4em;
 		margin-bottom: 0.5em;
 	}
-	
+
 }
