@@ -53,13 +53,13 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/maps\/aran1x.jpeg": {
+	"\/maps\/aran.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 81986,
-		"inputAbbreviatedPath": "\/maps\/aran1x.jpeg",
-		"outputAbbreviatedPath": "\/maps\/aran1x.jpeg",
+		"initialSize": 282697,
+		"inputAbbreviatedPath": "\/maps\/aran.jpeg",
+		"outputAbbreviatedPath": "\/maps\/aran.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
