@@ -96,7 +96,8 @@ a, a:visited, h2, h3{
 }
 
 .mapcontainer{
-	width: 100%;
+	max-width: 90%;
+	margin:auto;
 }
 
 .mapcontainer a{
