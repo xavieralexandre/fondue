@@ -29,8 +29,8 @@
                     <visibility>0</visibility>
                     <open>0</open>
                     <styleUrl>#red</styleUrl>
-                    <name>Track no. 1</name>
-                    <description>No info available</description>
+                    <name></name>
+                    <description></description>
                     <LineString>
                         <extrude>true</extrude>
                         <tessellate>true</tessellate>
@@ -42,6 +42,11 @@
                 </Placemark>
 
                 <Placemark>
+                <visibility>0</visibility>
+                <open>0</open>
+                <styleUrl>#red</styleUrl>
+                <name></name>
+                <description></description>
                     <LineString>
                         <extrude>true</extrude>
                         <tessellate>true</tessellate>
@@ -53,6 +58,11 @@
                 </Placemark>
 
                 <Placemark>
+                <visibility>0</visibility>
+                <open>0</open>
+                <styleUrl>#red</styleUrl>
+                <name></name>
+                <description></description>
                     <LineString>
                         <extrude>true</extrude>
                         <tessellate>true</tessellate>
@@ -64,6 +74,11 @@
                 </Placemark>
 
                 <Placemark>
+                <visibility>0</visibility>
+                <open>0</open>
+                <styleUrl>#red</styleUrl>
+                <name></name>
+                <description></description>
                     <LineString>
                         <extrude>true</extrude>
                         <tessellate>true</tessellate>
