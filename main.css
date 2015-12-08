@@ -4,7 +4,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	font: 1em 'Karla', sans-serif;
+	font: 1.1em 'Karla', sans-serif;
 }
 
 p, h1, h2, h3, h4, h5{
@@ -54,7 +54,7 @@ h1{
 }
 
 h2{
-	font-size: 1.6em;
+	font-size: 1.3em;
 	margin-bottom: 0.5em;
 }
 
@@ -84,11 +84,6 @@ a, a:visited, h2, h3{
 	color: rgba(7, 141, 193, 1);
 }
 
-#spots,
-#checklist {
-	font-size: 1.2em;
-}
-
 #checklist{
 	display: flex;
 	flex-wrap: wrap;
@@ -101,7 +96,8 @@ a, a:visited, h2, h3{
 }
 
 .mapcontainer{
-	width: 100%;
+	max-width: 90%;
+	margin:auto;
 }
 
 .mapcontainer a{
@@ -109,48 +105,45 @@ a, a:visited, h2, h3{
 
 .map {
 	width: 100%;
-	 border: 4px solid rgba(7, 141, 193, 1);
+	min-height: 500px;
+	 border: 2px solid rgba(7, 141, 193, 1);
 	 -webkit-box-sizing: border-box;
 	 -moz-box-sizing: border-box;
 	 box-sizing: border-box;
 }
 
-.acces{
-	color: #666;
-}
-
 @media all and (min-width: 600px) {
-	
+
 	.mapcontainer{
 		width: 50%;
 	}
-	
+
 	.description{
 		width: 48%;
 		margin-left: 2%;
 	}
-	
+
 	.list{
 		width: 50%;
 	}
-	
+
 	.list ul{
 		padding-right: 5%;
 	}
-	
+
 	h1{
 	padding: 0.4em 0;
 	font-size: 1.6em;
 	}
 
 	h2{
-		font-size: 2.4em;
+		font-size: 1.5em;
 		margin-bottom: 0.5em;
 	}
 
 	h3{
-		font-size: 1.4em;
+		font-size: 1.2em;
 		margin-bottom: 0.5em;
 	}
-	
+
 }
