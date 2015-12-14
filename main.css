@@ -22,10 +22,6 @@ p, h1, h2, h3, h4, h5{
 	-webkit-margin-end: 0px;
 }
 
-header,footer, footer a, footer a:visited{
-	color: white;
-}
-
 p{
 	margin-bottom: 0.5em;
 }
@@ -39,7 +35,7 @@ p{
 
 header{
 	background-color: #078DC1;
-	background-image: linear-gradient(270deg, rgba(93, 196, 233, 0.7) 0%, rgba(7, 141, 193, 0.7) 100%), url(http://xavieralexandre.org/fondue/img/capites.jpg);
+	background-image: linear-gradient(270deg, rgba(125, 125, 125, 0.7) 0%, rgba(150, 150, 150, 0.7) 100%), url(http://xavieralexandre.org/fondue/img/capites.jpg);
 	background-size: cover;
 	background-position: center bottom;
 }
@@ -51,7 +47,7 @@ header img{
 
 .baseline{
 	background-color: #078DC1;
-	background-image: linear-gradient(270deg, rgba(93, 196, 233, 1) 0%, rgba(7, 141, 193, 1) 100%);
+	background-image: linear-gradient(270deg, rgba(125, 125, 125, 1) 0%, rgba(150, 150, 150, 1) 100%);
 	color: white;
 	margin-bottom: 3em;
 }
@@ -73,8 +69,8 @@ h3{
 
 footer{
 	text-align:center;
-	background-color: rgba(7, 141, 193, 1);
-	background-image: linear-gradient(270deg, rgba(93, 196, 233, 1) 0%, rgba(7, 141, 193, 1) 100%);
+	background-color: rgba(25, 25, 25, 1);
+	background-image: linear-gradient(270deg, rgba(125, 125, 125, 1) 0%, rgba(150, 150, 150, 1) 100%);
 	margin-top: 2em;
 }
 
@@ -83,13 +79,17 @@ footer p{
 	margin: 0;
 }
 
+footer a, footer a:visited{
+color: white;
+}
+
 
 #spots h3{
 	margin: 1em 0 0.5em;
 }
 
-a, a:visited, h2, h3{
-	color: rgba(7, 141, 193, 1);
+a, a:visited{
+	color: rgba(0, 0, 0, 1);
 }
 
 #checklist{
@@ -107,7 +107,7 @@ a, a:visited, h2, h3{
 .map {
 	flex: 1 200px;
 	height: 500px;
-	border: 2px solid rgba(7, 141, 193, 1);
+	border: 2px solid;
 	margin: 0 .5em 1em;
 }
 
