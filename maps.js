@@ -2,7 +2,7 @@ var layer = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
 var map_capites = new ga.Map({
   target: 'map_capites',
   layers: [layer],
-  interactions: ol.interaction.defaults({mouseWheelZoom: false}),
+  interactions: ol.interaction.defaults({mouseWheelZoom: false, dragPan: false}),
   view: new ol.View({
     resolution: 4,
     center: [543985, 150255]
@@ -31,7 +31,7 @@ var layer = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
 var map_rivaz = new ga.Map({
   target: 'map_rivaz',
   layers: [layer],
-  interactions: ol.interaction.defaults({mouseWheelZoom: false}),
+  interactions: ol.interaction.defaults({mouseWheelZoom: false, dragPan: false}),
   view: new ol.View({
     resolution: 4,
     center: [549487.50, 147570]
@@ -60,7 +60,7 @@ var layer = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
 var map_riex = new ga.Map({
   target: 'map_riex',
   layers: [layer],
-  interactions: ol.interaction.defaults({mouseWheelZoom: false}),
+  interactions: ol.interaction.defaults({mouseWheelZoom: false, dragPan: false}),
   view: new ol.View({
     resolution: 4,
     center: [546285, 149315]
@@ -89,7 +89,7 @@ var layer = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
 var map_aran = new ga.Map({
   target: 'map_aran',
   layers: [layer],
-  interactions: ol.interaction.defaults({mouseWheelZoom: false}),
+  interactions: ol.interaction.defaults({mouseWheelZoom: false, dragPan: false}),
   view: new ol.View({
     resolution: 4,
     center: [544090, 149717.50]
