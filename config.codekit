@@ -24,13 +24,25 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/illus.jpg": {
-		"fileType": 16384,
+	"\/img\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19645,
+		"inputAbbreviatedPath": "\/img\/logo.png",
+		"outputAbbreviatedPath": "\/img\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/overlay.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 49974,
-		"inputAbbreviatedPath": "\/img\/illus.jpg",
-		"outputAbbreviatedPath": "\/img\/illus.jpg",
+		"initialSize": 370059,
+		"inputAbbreviatedPath": "\/img\/overlay.png",
+		"outputAbbreviatedPath": "\/img\/overlay.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -53,115 +65,27 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/maps\/aran.jpeg": {
-		"fileType": 16384,
+	"\/maps.js": {
+		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 282697,
-		"inputAbbreviatedPath": "\/maps\/aran.jpeg",
-		"outputAbbreviatedPath": "\/maps\/aran.jpeg",
+		"inputAbbreviatedPath": "\/maps.js",
+		"outputAbbreviatedPath": "\/min\/maps-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
-	"\/maps\/capites1x.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
+	"\/min\/maps-min.js": {
+		"fileType": 64,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 85276,
-		"inputAbbreviatedPath": "\/maps\/capites1x.jpeg",
-		"outputAbbreviatedPath": "\/maps\/capites1x.jpeg",
+		"inputAbbreviatedPath": "\/min\/maps-min.js",
+		"outputAbbreviatedPath": "\/min\/min\/maps-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/maps\/capites1x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 307786,
-		"inputAbbreviatedPath": "\/maps\/capites1x.png",
-		"outputAbbreviatedPath": "\/maps\/capites1x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/maps\/capites2x.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 882250,
-		"inputAbbreviatedPath": "\/maps\/capites2x.jpeg",
-		"outputAbbreviatedPath": "\/maps\/capites2x.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/maps\/capites2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.19462e+06,
-		"inputAbbreviatedPath": "\/maps\/capites2x.png",
-		"outputAbbreviatedPath": "\/maps\/capites2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/maps\/riex1x.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 221835,
-		"inputAbbreviatedPath": "\/maps\/riex1x.jpeg",
-		"outputAbbreviatedPath": "\/maps\/riex1x.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/maps\/riex1x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 277148,
-		"inputAbbreviatedPath": "\/maps\/riex1x.png",
-		"outputAbbreviatedPath": "\/maps\/riex1x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/maps\/riex2x.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 913364,
-		"inputAbbreviatedPath": "\/maps\/riex2x.jpeg",
-		"outputAbbreviatedPath": "\/maps\/riex2x.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/maps\/riex2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.19805e+06,
-		"inputAbbreviatedPath": "\/maps\/riex2x.png",
-		"outputAbbreviatedPath": "\/maps\/riex2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/maps\/rivaz.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 227606,
-		"inputAbbreviatedPath": "\/maps\/rivaz.jpeg",
-		"outputAbbreviatedPath": "\/maps\/rivaz.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/README.md": {
 		"criticStyle": 0,
@@ -183,39 +107,6 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
-		},
-	"\/vectors\/3bouteilles.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10697,
-		"inputAbbreviatedPath": "\/vectors\/3bouteilles.jpg",
-		"outputAbbreviatedPath": "\/vectors\/3bouteilles.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/vectors\/lecreuset.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 967153,
-		"inputAbbreviatedPath": "\/vectors\/lecreuset.jpg",
-		"outputAbbreviatedPath": "\/vectors\/lecreuset.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/vectors\/Pot.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4235,
-		"inputAbbreviatedPath": "\/vectors\/Pot.png",
-		"outputAbbreviatedPath": "\/vectors\/Pot.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/vectors\/pots.png": {
 		"fileType": 32768,
