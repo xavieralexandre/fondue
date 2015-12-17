@@ -16,7 +16,7 @@ var vector = new ol.layer.Vector({
     format : new ol.format.KML({
       projection: 'EPSG:21781'
     }),
-    extractStyles: false
+    extractStyles: true
   }),
   style: new ol.style.Style({
     stroke: new ol.style.Stroke({
@@ -45,7 +45,7 @@ var vector = new ol.layer.Vector({
     format : new ol.format.KML({
       projection: 'EPSG:21781'
     }),
-    extractStyles: false
+    extractStyles: true
   }),
   style: new ol.style.Style({
     stroke: new ol.style.Stroke({
@@ -74,7 +74,7 @@ var vector = new ol.layer.Vector({
     format : new ol.format.KML({
       projection: 'EPSG:21781'
     }),
-    extractStyles: false
+    extractStyles: true
   }),
   style: new ol.style.Style({
     stroke: new ol.style.Stroke({
@@ -103,7 +103,7 @@ var vector = new ol.layer.Vector({
     format : new ol.format.KML({
       projection: 'EPSG:21781'
     }),
-    extractStyles: false
+    extractStyles: true
   }),
   style: new ol.style.Style({
     stroke: new ol.style.Stroke({
