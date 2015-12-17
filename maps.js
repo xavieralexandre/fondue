@@ -1,4 +1,4 @@
-var layer = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
+var layer = ga.layer.create('ch.swisstopo.pixelkarte-grau');
 var map_capites = new ga.Map({
   target: 'map_capites',
   layers: [layer],
@@ -27,7 +27,7 @@ var vector = new ol.layer.Vector({
 });
 map_capites.addLayer(vector);
 
-var layer = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
+var layer = ga.layer.create('ch.swisstopo.pixelkarte-grau');
 var map_rivaz = new ga.Map({
   target: 'map_rivaz',
   layers: [layer],
@@ -56,7 +56,7 @@ var vector = new ol.layer.Vector({
 });
 map_rivaz.addLayer(vector);
 
-var layer = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
+var layer = ga.layer.create('ch.swisstopo.pixelkarte-grau');
 var map_riex = new ga.Map({
   target: 'map_riex',
   layers: [layer],
@@ -85,7 +85,7 @@ var vector = new ol.layer.Vector({
 });
 map_riex.addLayer(vector);
 
-var layer = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
+var layer = ga.layer.create('ch.swisstopo.pixelkarte-grau');
 var map_aran = new ga.Map({
   target: 'map_aran',
   layers: [layer],
