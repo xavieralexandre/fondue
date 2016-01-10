@@ -88,35 +88,6 @@ var vector = new ol.layer.Vector({
 });
 map_riex.addLayer(vector);
 
-var layer = ga.layer.create('ch.swisstopo.pixelkarte-grau');
-var map_aran = new ga.Map({
-  target: 'map_aran',
-  layers: [layer],
-  interactions: ol.interaction.defaults({mouseWheelZoom: false, dragPan: false}),
-  view: new ol.View({
-    resolution: 4,
-    center: [544090, 149717.50]
-  }),
-});
-
-// Create the KML Layer
-var vector = new ol.layer.Vector({
-  source: new ol.source.Vector({
-    url: 'http://www.duvindufromageetdupain.ch/routes/aran.kml',
-    format : new ol.format.KML({
-      projection: 'EPSG:21781'
-    }),
-    extractStyles: true
-  }),
-  style: new ol.style.Style({
-    stroke: new ol.style.Stroke({
-      color: 'rgba(255,0,0,0.8)',
-      width: 6
-    })
-  })
-});
-map_aran.addLayer(vector);
-
 
 var layer = ga.layer.create('ch.swisstopo.pixelkarte-grau');
 var map_chatelard = new ga.Map({
@@ -146,3 +117,32 @@ var vector = new ol.layer.Vector({
   })
 });
 map_chatelard.addLayer(vector);
+
+var layer = ga.layer.create('ch.swisstopo.pixelkarte-grau');
+var map_aran = new ga.Map({
+  target: 'map_aran',
+  layers: [layer],
+  interactions: ol.interaction.defaults({mouseWheelZoom: false, dragPan: false}),
+  view: new ol.View({
+    resolution: 4,
+    center: [544090, 149717.50]
+  }),
+});
+
+// Create the KML Layer
+var vector = new ol.layer.Vector({
+  source: new ol.source.Vector({
+    url: 'http://www.duvindufromageetdupain.ch/routes/aran.kml',
+    format : new ol.format.KML({
+      projection: 'EPSG:21781'
+    }),
+    extractStyles: true
+  }),
+  style: new ol.style.Style({
+    stroke: new ol.style.Stroke({
+      color: 'rgba(255,0,0,0.8)',
+      width: 6
+    })
+  })
+});
+map_aran.addLayer(vector);
