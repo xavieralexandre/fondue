@@ -10,7 +10,7 @@
         <Icon>
           <href>http://www.duvindufromageetdupain.ch/vectors/Pin.png</href>
         </Icon>
-        <hotSpot x="0,5"  y="0" xunits="fraction" yunits="fraction"/>    <!-- kml:vec2 -->
+        <hotSpot x="0.5"  y="0" xunits="fraction" yunits="fraction"/>    <!-- kml:vec2 -->
       </IconStyle>
       <LabelStyle>
         <scale>0</scale>
@@ -19,7 +19,7 @@
 
     <Style id="path">
       <LineStyle>
-        <color>cc3c14dc</color>
+        <color>ff0701ee</color>
         <width>8</width>
       </LineStyle>
     </Style>
@@ -33,7 +33,7 @@
           </description>
           <Point>
               <coordinates>
-                  6.70959967847,46.5014017507
+                  6.70916,46.50143
               </coordinates>
           </Point>
       </Placemark>
