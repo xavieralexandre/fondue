@@ -4,8 +4,8 @@ var map_capites = new ga.Map({
   layers: [layer],
   interactions: ol.interaction.defaults({mouseWheelZoom: false, dragPan: false}),
   controls: ol.control.defaults({zoom:false, attribution: true, attributionOptions: /** @type {olx.control.AttributionOptions} */ ({
-      collapsible: false
-    })}),
+    collapsible: false
+  })}),
   view: new ol.View({
     resolution: 4,
     center: [543985, 150255]
