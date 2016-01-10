@@ -116,3 +116,32 @@ var vector = new ol.layer.Vector({
   })
 });
 map_aran.addLayer(vector);
+
+var layer = ga.layer.create('ch.swisstopo.pixelkarte-grau');
+var map_aran = new ga.Map({
+  target: 'map_chatelard',
+  layers: [layer],
+  interactions: ol.interaction.defaults({mouseWheelZoom: false, dragPan: false}),
+  view: new ol.View({
+    resolution: 4,
+    center: [543399, 150328]
+  }),
+});
+
+// Create the KML Layer
+var vector = new ol.layer.Vector({
+  source: new ol.source.Vector({
+    url: 'http://xavieralexandre.org/fondue/routes/chatelard.kml',
+    format : new ol.format.KML({
+      projection: 'EPSG:21781'
+    }),
+    extractStyles: true
+  }),
+  style: new ol.style.Style({
+    stroke: new ol.style.Stroke({
+      color: 'rgba(255,0,0,0.8)',
+      width: 6
+    })
+  })
+});
+map_chatelard.addLayer(vector);
