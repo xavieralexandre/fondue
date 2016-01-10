@@ -131,7 +131,7 @@ var map_aran = new ga.Map({
 // Create the KML Layer
 var vector = new ol.layer.Vector({
   source: new ol.source.Vector({
-    url: 'http://www.duvindufromageetdupain.ch/routes/chatelard.kml',
+    url: 'http://www.duvindufromageetdupain.ch/routes/aran.kml',
     format : new ol.format.KML({
       projection: 'EPSG:21781'
     }),
