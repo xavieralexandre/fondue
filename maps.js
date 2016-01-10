@@ -117,8 +117,9 @@ var vector = new ol.layer.Vector({
 });
 map_aran.addLayer(vector);
 
+
 var layer = ga.layer.create('ch.swisstopo.pixelkarte-grau');
-var map_aran = new ga.Map({
+var map_chatelard = new ga.Map({
   target: 'map_chatelard',
   layers: [layer],
   interactions: ol.interaction.defaults({mouseWheelZoom: false, dragPan: false}),
@@ -131,7 +132,7 @@ var map_aran = new ga.Map({
 // Create the KML Layer
 var vector = new ol.layer.Vector({
   source: new ol.source.Vector({
-    url: 'http://www.duvindufromageetdupain.ch/routes/aran.kml',
+    url: 'http://www.duvindufromageetdupain.ch/routes/chatelard.kml',
     format : new ol.format.KML({
       projection: 'EPSG:21781'
     }),
