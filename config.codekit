@@ -66,6 +66,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo_notxt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14001,
+		"inputAbbreviatedPath": "\/img\/logo_notxt.png",
+		"outputAbbreviatedPath": "\/img\/logo_notxt.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/overlay.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -73,6 +84,17 @@
 		"initialSize": 370059,
 		"inputAbbreviatedPath": "\/img\/overlay.png",
 		"outputAbbreviatedPath": "\/img\/overlay.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbnail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104062,
+		"inputAbbreviatedPath": "\/img\/thumbnail.png",
+		"outputAbbreviatedPath": "\/img\/thumbnail.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -187,6 +209,17 @@
 		"initialSize": 134329,
 		"inputAbbreviatedPath": "\/Sketches.jpg",
 		"outputAbbreviatedPath": "\/Sketches.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vectors\/pin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3129,
+		"inputAbbreviatedPath": "\/vectors\/pin.png",
+		"outputAbbreviatedPath": "\/vectors\/pin.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
