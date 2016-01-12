@@ -8,7 +8,7 @@
     <Style id="spot">
       <IconStyle>
         <Icon>
-          <href>http://www.duvindufromageetdupain.ch/vectors/Pin.png</href>
+          <href>http://www.duvindufromageetdupain.ch/img/cheese.png</href>
         </Icon>
         <hotSpot x="0.5"  y="0" xunits="fraction" yunits="fraction"/>    <!-- kml:vec2 -->
       </IconStyle>
@@ -19,7 +19,7 @@
 
     <Style id="path">
       <LineStyle>
-        <color>ccafefff</color>
+        <color>cc67acd6</color>
         <width>8</width>
       </LineStyle>
     </Style>
