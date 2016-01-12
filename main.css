@@ -101,7 +101,7 @@ a, a:visited{
 
 @media all and (max-width: 440px) {
 	.map {
-    margin: 0 1em 1em;
+    margin-right: 2em;
 	}
 }
 
