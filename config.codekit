@@ -84,17 +84,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/map_preview.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 605700,
-		"inputAbbreviatedPath": "\/map_preview.png",
-		"outputAbbreviatedPath": "\/map_preview.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/maps.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -149,6 +138,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/nice_map.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 605700,
+		"inputAbbreviatedPath": "\/nice_map.png",
+		"outputAbbreviatedPath": "\/nice_map.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/phantom.js": {
 		"fileType": 64,
