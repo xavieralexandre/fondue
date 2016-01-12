@@ -14,17 +14,6 @@ var map = new ga.Map({
 
 var vector = new ol.layer.Vector({
   source: new ol.source.Vector({
-    url: 'http://www.duvindufromageetdupain.ch/routes/aran.kml',
-    format : new ol.format.KML({
-      projection: 'EPSG:21781'
-    }),
-    extractStyles: true
-  }),
-});
-map.addLayer(vector);
-
-var vector = new ol.layer.Vector({
-  source: new ol.source.Vector({
     url: 'http://www.duvindufromageetdupain.ch/routes/capites.kml',
     format : new ol.format.KML({
       projection: 'EPSG:21781'
@@ -88,5 +77,16 @@ var vector = new ol.layer.Vector({
       width: 6
     })
   })
+});
+map.addLayer(vector);
+
+var vector = new ol.layer.Vector({
+  source: new ol.source.Vector({
+    url: 'http://www.duvindufromageetdupain.ch/routes/aran.kml',
+    format : new ol.format.KML({
+      projection: 'EPSG:21781'
+    }),
+    extractStyles: true
+  }),
 });
 map.addLayer(vector);
