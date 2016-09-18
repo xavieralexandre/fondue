@@ -111,6 +111,11 @@ a, a:visited{
 	margin:0 .5em;
 }
 
+.photos img{
+  width: 100%;
+  margin: .5em;
+}
+
 @media all and (min-width: 600px) {
 
 	.list{
